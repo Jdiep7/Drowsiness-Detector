@@ -43,6 +43,7 @@ dataLoader = DataLoader(dataset, batch_size=32, shuffle=True)
 for image,label in dataLoader:
     break
 
+print(dataLoader)
 
 
 
