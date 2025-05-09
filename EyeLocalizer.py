@@ -65,6 +65,6 @@ train_dataset, val_dataset = random_split(dataset, [train_size, valid_size])
 train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)
 valid_loader = DataLoader(val_dataset, batch_size=32, shuffle=False)
 
-#class EyeLocalizerRegression(neural.Module):
+class EyeLocalizerRegression(neural.Module):
     
        
