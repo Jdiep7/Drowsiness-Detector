@@ -45,7 +45,7 @@ transform = transforms.Compose([
     transforms.ToTensor(),
 ])
 
-data_dir='C:/Users/jdiep/projects/Drowsiness-Detector/ClassifierDataset'
+data_dir='C:/Users/jdiep/projects/Drowsiness-Detector-1/ClassifierDataset'
 dataset = EyeDataSet(data_dir, transform)
 
 train_size = int(0.8*len(dataset))
